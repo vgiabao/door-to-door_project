@@ -12,4 +12,3 @@ class Node:
 
     def get_distance(self, other):
         return sqrt((self.x - other.x) ** 2 + (self.y - other.y) ** 2)
-
